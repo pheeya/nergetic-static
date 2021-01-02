@@ -1,0 +1,128 @@
+.navHolder {
+  position: relative;
+  text-align: center;
+}
+.navHolder .nav {
+  background-color: rgba(0, 0, 0, 0.1);
+  max-width: 1270px;
+  width: 95vw;
+  margin: 50px auto;
+  margin-top: 10px;
+  position: relative;
+  border-radius: 10px;
+}
+.navHolder .nav ul {
+  list-style-type: none;
+  display: flex;
+  text-align: center;
+  margin: 0 auto !important;
+  font-size: 14px;
+  width: 100%;
+  padding: 0;
+  padding-left: 21%;
+}
+.navHolder .nav ul li {
+  color: white;
+  padding: 15.7px 10px;
+  cursor: pointer;
+}
+.navHolder .nav ul a:hover {
+  border-bottom: 1px solid white;
+}
+.navHolder .headControls {
+  position: absolute;
+  right: 0;
+}
+.navHolder .headControls ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.navHolder .headControls ul .active {
+  font-size: 11px;
+  border: 1px solid rgba(36, 36, 36, 0.445);
+  margin: 0 8px;
+  padding: 2.9px 0px;
+  transition: background-color 0.2s;
+  cursor: pointer;
+  background-color: rgba(5, 5, 5, 0.5);
+  border-bottom: 1px solid white;
+  width: 51px;
+  text-align: center;
+  margin-right: 0;
+}
+.navHolder .headControls ul .active img {
+  width: 71.8%;
+}
+.navHolder .headControls ul .active #eu {
+  width: 40px;
+}
+.navHolder .headControls ul .li {
+  width: 51px;
+  font-size: 11px;
+  border: 1px solid rgba(36, 36, 36, 0.445);
+  margin: 0 8px;
+  padding: 2.9px 0px;
+  background-color: rgba(20, 20, 20, 0);
+  transition: background-color 0.2s;
+  cursor: pointer;
+  margin-right: 0;
+  transition: all 0.2s;
+}
+.navHolder .headControls ul .li img {
+  width: 71.8%;
+}
+.navHolder .headControls ul .li #eu {
+  width: 40px;
+}
+.navHolder .headControls ul .li:hover {
+  border-bottom: 1px solid white;
+  background-color: #1f1f1f;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  transition: border 0.2s;
+  margin: 0 5px;
+}
+
+#currentCurrency {
+  position: absolute;
+  right: 10000px;
+}
+
+.logo {
+  margin-top: 20px;
+  width: 230px;
+}
+
+@media (max-width: 1270px) {
+  .headControls {
+    right: 0;
+    left: 0;
+    visibility: visible;
+    top: 110%;
+  }
+}
+@media (max-width: 895px) {
+  .nav {
+    visibility: visible !important;
+    border: 0;
+    box-shadow: 0;
+  }
+  .nav a {
+    display: none !important;
+  }
+
+  .headControls {
+    top: 0;
+  }
+  .headControls ul {
+    justify-content: center !important;
+  }
+}
+
+/*# sourceMappingURL=nav.css.map */

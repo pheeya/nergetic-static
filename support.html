@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154746856-1"></script>
+		<script type="text/javascript" src="https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+		<!-- TrustBox script -->
+		<!-- End TrustBox script -->
+		<meta charset="utf-8" />
+		<link rel="dns-prefetch" href="https://www.google-analytics.com"/>
+		<link rel="preconnect" href="https://www.google-analytics.com"/>
+		<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="theme-color" content="#000000" />
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" media="all"/>
+		<link rel="apple-touch-icon" href="./logo192.png" />
+		<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+		<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png"/>
+		<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png"/>
+		<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png"/>
+		<link rel="manifest" href="./site.webmanifest"/>
+		<link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5"/>
+		<meta name="msapplication-TileColor" content="#da532c"/>
+		<meta name="theme-color" content="#ffffff"/>
+		<meta property="og:title" content="NergeticModding - Support Center" />
+		<meta property="og:image" content="./img/logo.svg" />
+		<meta property="og:url" content="https://nergeticmodding.com/support" />
+		<script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@id": "https://nergeticmodding.com/#organization",
+            "@type": "Organization",
+            "name": "NergeticModding",
+            "url": "https://nergeticmodding.com/",
+            "logo": "https://nergeticmodding.com/static/media/logo.14a6d797.png",
+            "description":"NergeticModding offers GTA 5, Fortnite and Forza Horizon boosting services & money mods. Boost your game with us! ✅Fast delivery within 24 hours ✅100% Safe Method ✅24/7 Support",
+            "email": "info@nergeticmodding.com",
+            "contactPoint":
+                {
+                    "@type": "ContactPoint",
+                    "url": "https://nergeticmodding.com/",
+                    "contactType": "customer support"
+                }
+        }
+        </script>
+        <link rel="stylesheet" href="./css/main.css" />
+        <link rel="stylesheet" href="./css/fonts.css" />
+		<link rel="stylesheet" href="./css/nav.css" />
+		<link rel="stylesheet" href="./css/mNav.css" />
+        <link rel="stylesheet" href="./css/footer.css" />
+        <link rel="stylesheet" href="./css/cards.css" />
+        <link rel="stylesheet" href="./css/deliveries.css" />
+        <link rel="stylesheet" href="./css/support.css" />
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+		<title>NergeticModding - Support Center</title>
+	</head>
+	<body>
+		<noscript>We deliver Cheap & Reliable GTA 5 Money & Modded Accounts strictly within 12 hours! We are the most
+    exclusive GTA 5 Modding website. NergeticModding is the No.1 place for Cheap & Reliable Rare Fortnite Skins & VBUCKS
+    with fast delivery.</noscript>
+		<div id="root">
+			<div class="App">
+				<div class="loader"></div>
+				<div class="navHolder">
+					<div class="mNav">
+						<div onclick="openMenu()" class="mNav-button">
+							<i class="fas fa-bars"></i>
+						</div>
+						<ul id="mNav">
+							<a class="active" >
+								<li>GTA V STORE</li>
+							</a>
+							<a href="faq.html">
+								<li>FAQ</li>
+							</a>
+							<a target="_blank" rel="noreferrer" href="https://pay.smartcheckout.store/status/?merchant=20014">
+								<li>ORDER STATUS</li>
+							</a>
+							<a href="delivery-packages.html">
+								<li>DELIVERY PACKAGES</li>
+							</a>
+							<a href="support.html" href="index.html">
+								<li>SUPPORT CENTER</li>
+							</a>
+						</ul>
+					</div>
+					<img class="logo" src="./img/logo.svg" alt="NergeticModding logo" title="NergeticModding Logo" />
+					<div class="nav">
+						<ul id="links-1">
+							<a  href="index.html">
+								<li>GTA V STORE</li>
+							</a>
+							<a href="faq.html">
+								<li>FAQ</li>
+							</a>
+							<a target="_blank" rel="noreferrer" href="https://pay.smartcheckout.store/status/?merchant=20014">
+								<li>ORDER STATUS</li>
+							</a>
+							<a href="delivery-packages.html">
+								<li>DELIVERY PACKAGES</li>
+							</a>
+							<a href="support.html"  class="active">
+								<li>SUPPORT CENTER</li>
+							</a>
+							<div class="headControls">
+								<li id="currentCurrency">  EUR</li>
+								<ul>
+									<li class="active" onclick="eur()">
+										<img id="eu" src="./img/eu.svg" alt="eu" title="Euro" /> EUR
+																								
+									</li>
+									<li class="li" onclick="usd()">
+										<img src="./img/um.svg" alt="usd" title="United States Dollar" /> USD
+																								
+									</li>
+									<li class="li" onclick="gbp()">
+										<img src="./img/gb.svg" alt="gbp" title="Pound Sterling" /> GBP
+																								
+									</li>
+									<li class="li" onclick="aud()">
+										<img src="./img/au.svg" alt="aud" title="Australian Dollar" /> AUD
+																								
+									</li>
+									<li class="li" onclick="cad()">
+										<img src="./img/ca.svg" alt="cad" title="Canadian Dollar" /> CAD
+																								
+									</li>
+								</ul>
+							</div>
+						</ul>
+                    </div>
+                    
+					<div class="tester">
+						<div class="support">
+							<div class="platformSelecter">
+								<h2>Support Time Schedule</h2>
+							</div>
+							<div class="ps4Delivery delivery">
+								<ul>
+									<li>
+										<div class="deliveryPackage">
+											<span class="t4">UTC (Universal Time Coordinated)</span>
+											<hr/>
+                                        Support1:  2:00 PM -  11:00 PM 
+																										
+											<br/>
+										</div>
+									</li>
+									<li>
+										<div class="deliveryPackage">
+											<span class="t4">PST (Pacific Standard Time)</span>
+											<hr/>
+                                        Support 1: 6:00 AM -  3:00 PM 
+																										
+											<br/>
+										</div>
+									</li>
+								</ul>
+								<div class="closer">
+									<a href="mailto:info@nergeticmodding.com" style="color: #afafaf">info@nergeticmodding.com</a> - Support Mail
+																								
+									<br/><br/>
+									<a href="mailto:orders@nergeticmodding.com" style="color: #afafaf">orders@nergeticmodding.com</a> - Order Help
+																								
+									<br/>
+									<br/>
+								</div>
+							</div>
+							<h2>Ticket Forms</h2>
+							<div class="forms">
+								<form onsubmit="this.onSubmit" action="https://checkout.voltnic.com/voltnic/api/send-mail/" method="POST">
+									<input name="type" value="1" type="hidden"/>
+									<div class="opening">
+										<h2>General Support</h2>
+										<p>If you are new to our website and you'd like to inquire about our
+                                 services don't hesitate to send us a message and we will try to reply back as soon as possible!</p>
+										<span class="message">Response Time: 24 hours</span>
+									</div>
+									<div class="fields">
+										<div class="field">
+											<label for="email">E-Mail</label>
+											<input name="email" type="email" placeholder="e.g. johndoe@email.com" required></input>
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" rows="5" required></textarea>
+											<div class="g-recaptcha" data-sitekey="your_site_key"></div>
+
+										</div>
+										<button>Submit</button>
+									</div>
+								</form>
+								<form onsubmit="this.onSubmit" action="https://checkout.voltnic.com/voltnic/api/send-mail/" method="POST">
+									<input name="type" value="2" type="hidden"/>
+									<div class="opening">
+										<h2>Customer Support</h2>
+										<p>If you have purchased one or more of our services and have any questions
+                            or confusions regarding that then please reach out to us
+                           using this form and we will get back to you within 24 hours.</p>
+										<span class="message">Response Time: 24 hours</span>
+									</div>
+									<div class="fields">
+										<div class="field">
+											<label for="email">E-Mail</label>
+											<input name="email" type="email" placeholder="e.g. johndoe@email.com" required></input>
+										</div>
+										<div class="field">
+											<label for="orderid">ID</label>
+											<input name="orderid" placeholder="e.g. 301-12345-123456" type="text" required></input>
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" rows="5" required></textarea>
+                                            <div class="g-recaptcha" data-sitekey="your_site_key"></div>    
+                                        </div>
+										<button>Submit</button>
+									</div>
+								</form>
+							</div>
+							<h1 class="margin-vertical">Tutorials</h1>
+							<div class="tutorials">
+								<div class="tutorial">
+									<span class="t2">How To Purchase</span>
+									<p>Before purchasing make sure that you meet all the requirements of the service you want to purchase.
+                        PC Requirements: None
+                        PS4 Requirements: 200K, 2FA Off, PS Plus
+                        After that, simply click on "Buy Now", enter the details that are asked of you on the popout window and hit "checkout".
+                        After that you will be redirected to the checkout where you have to fill in your Billing Information,
+                        Select Payment Method & Delivery Type.  After you are done with those 3 steps click on "Place Order"
+                        and you will be redirected to NGPay where you will need to fill in your payment method information.
+                        After you complete the payment, you will receive an Invoice and a Receipt at the billing e-mail address
+                        you provided us. You will also receive the order completion email there which would indicate that your order
+   has been completed</p>
+								</div>
+								<div class="tutorial">
+									<span class="t2">How To Use Modded Account</span>
+									<p>After you purchase a modded account it could go take up to 1-20 days for the delivery.
+                        We will send you an e-mail notification with the account credentials.
+                                    </p>
+									<p>After that locate the email
+                        and the account credentials and turn on your PS4 console.
+    Press the PS Button and instead of signing in to your current account select the "New User" option. </p>
+									<p>After that select "Create a User"  and enter your account credentials information. Follow the on-screen
+                        instructions until you successfully log in to your new account.
+Finally, just open GTA 5, play the prologue and you're set to go.</p>
+								</div>
+								<div class="tutorial">
+									<span class="t2">What To Do After Purchase</span>
+									<p>After purchasing a PS4 Booster you will receive an e-mail notification confirming the delivery which include a full guide on how to avoid bypassing the daily selling limit.
+                        We recommend selling 1-2 vehicles a day so you don't hit the daily selling limit which could result in your cars being sold for a little amount of gta money. You can find your vehicles stored in multiple garages, sometimes even at a second character if the boost purchased is big enough.
+                        Important: make sure that you pull your console off the plug as soon as you receive the completion e-mail so your PS4 resets and the boost is saved.
+As for PC things are way simpler as you only have to sign back and play with your new boost. It is recommended to not let the account stay inactive as it could be a reason that could cause a ban.</p>
+								</div>
+								<div class="tutorial">
+									<span class="t2">Order In Progress</span>
+									<p>How can you know if the process starts? On PS4, you are free to play during the waiting of your delivery but you are required to have your console turned off completely while the modder is signed in.</p>
+									<p>
+                            You can know if the modder is signed in 
+																									
+										<br/>
+										<br/> 1) if you get signed out or you receive an E-Mail that an individual from Russia has logged in your account 
+																									
+										<br/> 2) Or if you log in and you kick the modder, the modder will attempt to sign in once again.
+In both situations are you are required to pull the console off the plug and not plug it again until you receive an e-mail about the completion of your order.
+																								
+									</p>
+								</div>
+                            </div>
+                            
+                            <div class="opening">
+                                <h1 style="margin-top: 100 px" id="tos">Terms of Service</h1>
+                                <div style="text-align: left"><h2><b>Overview</b></h2>
+                                    <p>This website is operated by NergeticModding.com. Throughout the site, the terms “we”, “us” and “our” refer to NergeticModding. NergeticModding offers this website, including all information, tools and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies and notices stated here.</p>
+                                    <p>By visiting our site and/ or purchasing something from us, you engage in our “Service” and agree to be bound by the following terms and conditions (“Terms of Service”, “Terms”), including those additional terms and conditions and policies referenced herein and/or available by hyperlink. These Terms of Service apply &nbsp;to all users of the site, including without limitation users who are browsers, vendors, customers, merchants, and/ or contributors of content.</p>
+                                    <p>Please read these Terms of Service carefully before accessing or using our website. By accessing or using any part of the site, you agree to be bound by these Terms of Service. If you do not agree to all the terms and conditions of this agreement, then you may not access the website or use any services. If these Terms of Service are considered an offer, acceptance is expressly limited to these Terms of Service.</p>
+                                    <p>Any new features or tools which are added to the current store shall also be subject to the Terms of Service. You can review the most current version of the Terms of Service at any time on this page. We reserve the right to update, change or replace any part of these Terms of Service by posting updates and/or changes to our website. It is your responsibility to check this page periodically for changes. Your continued use of or access to the website following the posting of any changes constitutes acceptance of those changes.</p>
+                                    <h2><b>Cookies</b></h2>
+                                    <p>We employ the use of cookies. By using our website you consent to the use of cookies<br/>in accordance with our privacy policy.</p>
+                                    <p>Most of the modern day interactive web sites<br/>use cookies to enable us to retrieve user details for each visit. Cookies are used in some areas of our site<br/>to enable the functionality of this area and ease of use for those people visiting. Some of our<br/>affiliate / advertising partners may also use cookies.</p>
+                                    <h2><b>License</b></h2>
+                                    <p>Unless otherwise stated, NergeticModding and/or it’s licensors own the intellectual property rights for<br/>all material on NergeticModding. All intellectual property rights are reserved. You may view and/or print<br/>pages from https://nergeticmodding.com for your own personal use subject to restrictions set in these terms and conditions.</p>
+                                    <p>You must not:</p>
+                                    <ol>
+                                        <li>Republish material from https://nergeticmodding.com</li>
+                                        <li>Sell, rent or sub-license material from https://nergeticmodding.com</li>
+                                        <li>Reproduce, duplicate or copy material from https://nergeticmodding.com</li>
+                                    </ol>
+                                    <p>Redistribute content from NergeticModding (unless content is specifically made for redistribution).</p><p>Additionally, you may not record, screenshot any of the content on the website and upload it on any social media platforms such as Facebook, Youtube, Twitter without the permission of the site management/administration. You can request permission by communicating with our team at this E-Mail: admin@NergeticModding.com</p>
+                                    <h2><b>Hyperlinking to our Content</b></h2>
+                                    <ol>
+                                        <li>The following organizations may link to our Web site without prior written approval:
+                                    <ol>
+                                                <li>Government agencies;</li>
+                                                <li>Search engines;</li>
+                                                <li>News organizations;</li>
+                                                <li>Online directory distributors when they list us in the directory may link to our Web site in the same<br/>manner as they hyperlink to the Web sites of other listed businesses; and</li>
+                                                <li>Systemwide Accredited Businesses except soliciting non-profit organizations, charity shopping malls,<br/>and charity fundraising groups which may not hyperlink to our Web site.</li>
+                                            </ol>
+                                        </li>
+                                    </ol>
+                                    <ol start="2">
+                                        <li>These organizations may link to our home page, to publications or to other Web site information so long<br/>as the link: (a) is not in any way misleading; (b) does not falsely imply sponsorship, endorsement or<br/>approval of the linking party and its products or services; and (c) fits within the context of the linking<br/>party’s site.</li>
+                                        <li>We may consider and approve in our sole discretion other link requests from the following types of organizations:
+                                    <ol>
+                                                <li>commonly-known consumer and/or business information sources such as Chambers of Commerce, American<br/>Automobile Association, AARP and Consumers Union;</li>
+                                                <li>dot.com community sites;</li>
+                                                <li>associations or other groups representing charities, including charity giving sites,</li>
+                                                <li>online directory distributors;</li>
+                                                <li>internet portals;</li>
+                                                <li>accounting, law and consulting firms whose primary clients are businesses; and</li>
+                                                <li>educational institutions and trade associations.</li>
+                                            </ol>
+                                        </li>
+                                    </ol>
+                                    <p>We will approve link requests from these organizations if we determine that: (a) the link would not reflect<br/>unfavorably on us or our accredited businesses (for example, trade associations or other organizations<br/>representing inherently suspect types of business, such as work-at-home opportunities, shall not be allowed<br/>to link); (b)the organization does not have an unsatisfactory record with us; (c) the benefit to us from<br/>the visibility associated with the hyperlink outweighs the absence of ; and (d) where the<br/>link is in the context of general resource information or is otherwise consistent with editorial content<br/>in a newsletter or similar product furthering the mission of the organization.</p>
+                                    <p>These organizations may link to our home page, to publications or to other Web site information so long as<br/>the link: (a) is not in any way misleading; (b) does not falsely imply sponsorship, endorsement or approval<br/>of the linking party and it products or services; and (c) fits within the context of the linking party’s<br/>site.</p>
+                                    <p>If you are among the organizations listed in paragraph 2 above and are interested in linking to our website,<br/>you must notify us by sending an e-mail to contact[at]NergeticModding.com.<br/>Please include your name, your organization name, contact information (such as a phone number and/or e-mail<br/>address) as well as the URL of your site, a list of any URLs from which you intend to link to our Web site,<br/>and a list of the URL(s) on our site to which you would like to link. Allow 2-3 weeks for a response.</p>
+                                    <p>Approved organizations may hyperlink to our Web site as follows:</p>
+                                    <ol>
+                                        <li>By use of our corporate name; or</li>
+                                        <li>By use of the uniform resource locator (Web address) being linked to; or</li>
+                                        <li>By use of any other description of our Web site or material being linked to that makes sense within the<br/>context and format of content on the linking party’s site.</li>
+                                    </ol>
+                                    <p>No use of NergeticModding’s logo or other artwork will be allowed for linking absent a trademark license<br/>agreement.</p>
+                                    <h2><b>Reservation of Rights</b></h2>
+                                    <p>We reserve the right at any time and in its sole discretion to request that you remove all links,corporate name mentions or any particular<br/>link/corporate name mentions to our Web site. You agree to immediately remove all links/corporate name mentions to our Web site upon such request. We also<br/>reserve the right to amend these terms and conditions and its linking policy at any time. By continuing<br/>to link to our Web site, you agree to be bound to and abide by these linking terms and conditions.</p>
+                                    <h2><b>Removal of links from our website</b></h2>
+                                    <p>If you find any link on our Web site or any linked web site objectionable for any reason, you may contact<br/>us about this. We will consider requests to remove links but will have no obligation to do so or to respond<br/>directly to you.</p>
+                                    <p>Whilst we endeavour to ensure that the information on this website is correct, we do not warrant its completeness<br/>or accuracy; nor do we commit to ensuring that the website remains available or that the material on the<br/>website is kept up to date.</p>
+                                    <h2><b>Content Liability</b></h2>
+                                    <p>We shall have no responsibility or liability for any content appearing on your Web site. You agree to indemnify<br/>and defend us against all claims arising out of or based upon your Website. No link(s) may appear on any<br/>page on your Web site or within any context containing content or materials that may be interpreted as<br/>libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or<br/>other violation of, any third party rights.</p>
+                                    <h2><b>Disclaimer</b></h2>
+                                    <p>To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions relating to our website and the use of this website (including, without limitation, any warranties implied by law in respect of satisfactory quality, fitness for purpose and/or the use of reasonable care and skill). Nothing in this disclaimer will:</p>
+                                    <ol>
+                                        <li>limit or exclude our or your liability for death or personal injury resulting from negligence;</li>
+                                        <li>limit or exclude our or your liability for fraud or fraudulent misrepresentation;</li>
+                                        <li>limit any of our or your liabilities in any way that is not permitted under applicable law; or</li>
+                                        <li>exclude any of our or your liabilities that may not be excluded under applicable law.</li>
+                                    </ol>
+                                    <p>The limitations and exclusions of liability set out in this Section and elsewhere in this disclaimer: (a)<br/>are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer or<br/>in relation to the subject matter of this disclaimer, including liabilities arising in contract, in tort<br/>(including negligence) and for breach of statutory duty.</p>
+                                    <p>To the extent that the website and the information and services on the website are provided free of charge,<br/>we will not be liable for any loss or damage of any nature.</p>
+                                    <h2><b>Refund Policies</b></h2>
+                                    <p>All orders made on our website are final and not refundable.</p>
+                                    <p>Only if we are generally not able to complete your order within your delivery timeframe and assuming that we have the required access to your GTA 5 Account and you meet all requirements listed on the site, you can request a refund. *</p>
+                                    <h2><b>Warranty Policies</b></h2>
+                                    <p>You have the right to request a replacement account in case of banishment from GTA Online happens due to our services. Customers that have cheated/exploited/modded the game in any way in the past on their own are not eligible to use our Ban Warranty.&nbsp;</p></div>
+                            </div>
+                        
+						</div>
+                    
+                        <div class="footer">
+                            <div class="footerText">
+                                <h4>
+                                    <a href="/support#legal-notice" style="color: #fff ">LEGAL NOTICE </a>|
+                                                                                                
+                                    <a href="/support#tos" style="color: #fff"> TERMS OF SERVICE</a>
+                                </h4>
+                        ©2020 NergeticModding. All trademarks are property of their respective owners.
+                        
+                                                                                        
+                            </div>
+                            <div class="footer-trust-pilot">
+                                <div
+                            id="trustbox"
+                            class="trustpilot-widget"
+                            data-locale="en-US" 
+                            data-template-id="5613c9cde69ddc09340c6beb" data-businessunit-id="5ddfd552f0a02300011f3529" data-style-height="100%" data-style-width="100%" data-theme="dark"
+                        >
+                                    <div>
+                                        <a href="https://www.trustpilot.com/review/nergeticmodding.com" target="_blank" rel="noopener">Trustpilot</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footerCarousel">
+                                <div class="footerCarouselImg">
+                                    <ul id="footerScroller">
+                                        <div class="liWrapper">
+                                            <li id="image1" class="image"></li>
+                                        </div>
+                                        <div class="liWrapper">
+                                            <li id="image2" class="image"></li>
+                                        </div>
+                                        <div class="liWrapper">
+                                            <li id="image3" class="image"></li>
+                                        </div>
+                                        <div class="liWrapper">
+                                            <li id="image18" class="image"></li>
+                                        </div>
+                                        <div class="liWrapper">
+                                            <li id="image4" class="image"></li>
+                                        </div>
+                                        <div class="liWrapper">
+                                            <li id="image5" class="image"></li>
+                                        </div>
+                                        <div class="liWrapper">
+                                            <li id="image6" class="image"></li>
+                                        </div>
+                                        <div class="liWrapper">
+                                            <li id="image7" class="image"></li>
+                                        </div>
+                                        <div class="liWrapper">
+                                            <li id="image10" class="image"></li>
+                                        </div>
+                                        <div class="liWrapper">
+                                            <li id="image15" class="image"></li>
+                                        </div>
+                                        <div class="liWrapper">
+                                            <li id="image16" class="image"></li>
+                                        </div>
+                                        <div class="liWrapper">
+                                            <li id="image17" class="image"></li>
+                                        </div>
+                                    </ul>
+                                </div>
+                                <i onclick="scrollF()" id="rightChev" class="fas fa-arrow-right arrowF"></i>
+                                <i onclick="scrollB()" id="leftChev" class="fas fa-arrow-left arrowF"></i>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</div>
+        <script src="./js/main.js"></script>
+    </body>
+</html>

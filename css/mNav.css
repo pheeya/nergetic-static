@@ -1,0 +1,48 @@
+.mNav {
+  display: none;
+}
+.mNav a {
+  color: black;
+}
+.mNav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: black;
+  background-color: white;
+  transition: all 0.3s;
+  height: 0px;
+  overflow: hidden;
+}
+.mNav ul li {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+  border-bottom: 1px solid rgba(155, 155, 155, 0.288);
+  margin: 0;
+  margin-top: -17px;
+  padding: 19px;
+}
+.mNav ul li:hover {
+  background-color: rgba(0, 0, 0, 0.144);
+}
+
+.mNav-button {
+  background-color: #181818;
+  text-align: center;
+  font-size: 25px;
+  box-shadow: 0 0 10px black;
+  padding: 5px;
+}
+.mNav-button .fas {
+  cursor: pointer;
+}
+
+@media (max-width: 895px) {
+  .mNav {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=mNav.css.map */

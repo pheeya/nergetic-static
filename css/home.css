@@ -1,0 +1,26 @@
+.homeLearnInfoCont {
+  padding: 50px 0;
+  padding-bottom: 300px;
+  max-width: 1200px;
+  text-align: left;
+  margin: auto;
+  font-size: 17px;
+}
+.homeLearnInfoCont .homeLearnInfo {
+  background-color: rgba(19, 19, 19, 0.973);
+  padding: 3px;
+}
+.homeLearnInfoCont .homeLearnInfo .title {
+  background-color: #222222;
+  padding: 10px 5px;
+}
+.homeLearnInfoCont .body {
+  padding: 10px;
+  text-align: left;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #9c9c9c;
+  background-color: rgba(19, 19, 19, 0.973);
+}
+
+/*# sourceMappingURL=home.css.map */

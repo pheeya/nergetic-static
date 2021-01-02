@@ -1,0 +1,61 @@
+.deliveriesPageHolder {
+  margin-bottom: 300px;
+}
+.deliveriesPageHolder .t1 {
+  padding: 30px 0;
+}
+
+.deliveriesPage {
+  padding: 20px;
+}
+.deliveriesPage .delivery {
+  background-color: rgba(143, 143, 143, 0.068);
+  padding: 10px 0;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  width: 40%;
+  margin: 60px auto;
+}
+.deliveriesPage .delivery h1 {
+  margin: 10px 0;
+  font-weight: 100;
+}
+.deliveriesPage .delivery ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+.deliveriesPage .delivery ul li {
+  background-color: rgba(143, 143, 143, 0.068);
+  padding: 15px;
+  border-radius: 2px;
+  height: 150px;
+  border-radius: 10px;
+  float: left;
+  margin: auto 20px 20px;
+  width: 200px;
+}
+.deliveriesPage .delivery ul li hr {
+  border: 0;
+  border-bottom: 2px solid rgba(66, 66, 66, 0.356);
+  margin: 14px 0;
+}
+.deliveriesPage .delivery ul li .time {
+  font-size: 13px;
+  color: #a0a0a0;
+}
+
+.opening {
+  max-width: 850px;
+  margin: auto;
+}
+.opening p {
+  color: #b8b8b8;
+}
+
+/*# sourceMappingURL=deliveries.css.map */

@@ -1,0 +1,318 @@
+.xboxUl > ul {
+  max-width: 466px !important;
+}
+
+.xboxUl > ul > li {
+  width: 155.333333333px !important;
+}
+
+.platformSelecter {
+  text-align: center;
+  margin: 50px auto;
+}
+.platformSelecter ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  max-width: 429px;
+  margin: auto;
+  border: 1px solid rgba(82, 82, 82, 0.74);
+  padding: 0;
+  position: relative;
+  border-radius: 10px;
+}
+.platformSelecter ul li {
+  text-align: center;
+  transition: color 0.2s;
+  width: 143px;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+  color: #747474;
+  border-right: 1px solid rgba(255, 255, 255, 0.158);
+}
+.platformSelecter ul li .platIco {
+  display: block;
+  position: relative;
+  font-size: 40px;
+  transition: color, text-shadow 0.2s;
+}
+.platformSelecter ul li .inactiveEye {
+  text-shadow: 0px -1px 0 white, 0px -1px 0 white, 0px 1px 0 white, 0px 1px 0 white;
+  color: black;
+}
+.platformSelecter ul li:nth-child(3) {
+  border-right: none;
+}
+.platformSelecter ul .platIcoHolder:hover {
+  color: white;
+}
+.platformSelecter ul .platform-active {
+  color: white;
+}
+
+.currentGame {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 6%;
+  width: 287px;
+  z-index: 2;
+}
+
+.tester {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.13);
+  width: 95vw;
+  max-width: 1270px;
+  min-height: 80vh;
+  border-radius: 10px;
+}
+
+.epicBackdrop {
+  backdrop-filter: blur(20px);
+}
+
+.popController {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.homeMessageTitle {
+  margin: 50px 0;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.homeMessageCardUl {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.homeMessageCardLi {
+  margin: auto 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  border-radius: 2px;
+  max-width: 350px;
+  border-radius: 10px;
+  font-size: 13px;
+  color: #fffff0;
+  float: left;
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.homeMessageCardLi > div > hr {
+  border-width: 0.7px;
+  border-radius: 10px;
+  border-color: #303030;
+  margin: 15px;
+}
+
+.homeMessageCardLi > i {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.learnController {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.fullOverlay {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.822);
+  z-index: -3;
+  opacity: 0;
+  width: 100%;
+}
+
+.cardsContainer {
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+}
+
+.tileMargin {
+  margin-top: 50px;
+}
+
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#cards .tile {
+  margin: 20px;
+  min-width: 590px;
+  max-width: 590px;
+  position: relative;
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+  background-color: #2b2b2b;
+  color: white;
+  display: flex;
+}
+#cards .tile .cardListContainer {
+  position: relative;
+}
+#cards .tile .onScreenContent {
+  position: absolute;
+  color: white;
+  left: 125px;
+  top: 88px;
+}
+#cards .tile .onScreenContent h1 {
+  font-weight: 600;
+  font-size: 25px;
+}
+#cards .tile .buttonDivider {
+  position: absolute;
+  width: 91%;
+  right: 0;
+  left: 0;
+  bottom: 53px;
+  border: 0;
+  border-bottom: 1px solid rgba(19, 19, 19, 0.486);
+  display: none;
+}
+#cards .tile .imgHolder {
+  overflow: hidden;
+  max-width: 400px;
+  width: 100%;
+  background: red;
+}
+#cards .tile .imgHolder img {
+  width: 100%;
+  display: block;
+}
+#cards .tile .content {
+  background-color: #1a1a1a;
+  width: 50%;
+}
+#cards .tile .content ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+#cards .tile .content ul li {
+  padding: 10px 5px;
+  border-bottom: 1px solid rgba(20, 20, 20, 0.63);
+  text-transform: uppercase;
+}
+#cards .tile .content button {
+  margin: 6px 12px;
+  border: 0;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  transition: all 0.2s;
+  width: 88%;
+}
+#cards .tile .content .learnMoreContent {
+  background-color: rgba(0, 0, 0, 0);
+  cursor: text;
+  border-radius: 10px;
+}
+#cards .tile .content .buyButton {
+  border-radius: 10px;
+}
+#cards .tile .content .grayButton {
+  background-color: rgba(58, 58, 58, 0.5);
+  cursor: pointer;
+}
+#cards .tile .content .yellowButton {
+  background-color: #ebc33e;
+  color: black;
+}
+#cards .tile .content .purpleButton {
+  background-color: #972297;
+}
+#cards .tile .content .redButton {
+  background-color: rgba(233, 27, 27, 0.6);
+}
+#cards .tile .content .orangeButton {
+  background-color: #ee4d30;
+}
+#cards .tile .content .greenButton {
+  background-color: #06ca52;
+}
+#cards .tile .content .blueButton {
+  background-color: rgba(28, 107, 255, 0.6);
+}
+#cards .tile .content .blueButton:hover {
+  box-shadow: 0 0 3px #1c6bff;
+}
+#cards .tile .content .redButton:hover {
+  box-shadow: 0 0 4px red;
+}
+#cards .tile .content .greenButton:hover {
+  box-shadow: 0 0 4px green;
+}
+#cards .tile .content .yellowButton:hover {
+  box-shadow: 0 0 4px #91813a;
+}
+#cards .tile .content .purpleButton:hover {
+  box-shadow: 0 0 4px purple;
+}
+#cards .tile .content .blackButton:hover {
+  box-shadow: 0 0 3px black;
+}
+#cards .tile .content .orangeButton:hover {
+  box-shadow: 0 0 3px #ee3030;
+}
+#cards .tile .content .blackButton {
+  background-color: #0c0c0c;
+}
+#cards .tile .content .disabledButton {
+  background-color: rgba(28, 107, 255, 0.116);
+  color: #c7c7c7;
+}
+#cards .tile .content .disabledButtonRed {
+  background-color: rgba(233, 27, 27, 0.116);
+}
+#cards .tile .content button:active,
+#cards .tile .content button:focus {
+  outline: 0;
+}
+
+.displayNone {
+  display: none !important;
+}
+
+@media (max-width: 1000px) {
+  #cards .tile {
+    display: block;
+    width: 300px;
+    min-width: unset;
+  }
+  #cards .tile .content {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=cards.css.map */

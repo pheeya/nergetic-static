@@ -1,0 +1,235 @@
+.footerDiscord {
+  margin: 20px 0;
+  margin-top: 80px;
+  width: 100%;
+  font-size: 70px;
+  cursor: pointer;
+  color: #222222;
+  transition: all 0.5s;
+  position: relative;
+  color: rgba(223, 223, 223, 0.685);
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-bottom: 350px;
+  padding-top: 10px;
+}
+.footerDiscord .discordContent {
+  top: 0;
+  bottom: 0;
+  height: 40px;
+  margin: auto;
+  font-size: 30px;
+  display: inline-block;
+  vertical-align: 30px;
+  color: rgba(0, 0, 0, 0);
+  transition: color 0.5s;
+  margin: 0 10px;
+}
+
+.notiMessage {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+  color: #222222;
+  transition: all 0.5s;
+  position: relative;
+  color: rgba(223, 223, 223, 0.685);
+  background-color: rgba(253, 253, 253, 0.05);
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-position: 7% 50%;
+  background-size: 50px;
+}
+.notiMessage .notiMessageContent {
+  top: 0;
+  bottom: 0;
+  height: 40px;
+  margin: auto;
+  font-size: 30px;
+  display: inline-block;
+  vertical-align: 30px;
+  color: rgba(0, 0, 0, 0);
+  transition: color 0.5s;
+  margin: 0 10px;
+}
+
+.footerDiscord:hover {
+  color: #fdfdfd;
+}
+
+.footer {
+  padding: 20px;
+  color: white;
+  font-size: 13px;
+  max-width: 1150px;
+  margin: auto;
+  margin-top: 50px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.footer .footer-trust-pilot {
+  margin: 40px auto;
+}
+.footer h4 {
+  margin: 10px;
+  font-weight: 300;
+}
+.footer .footerCarousel {
+  position: relative;
+}
+.footer .footerCarousel .arrowF {
+  position: absolute;
+  top: 0;
+  bottom: 10px;
+  height: 24px;
+  margin: auto;
+  font-size: 25px;
+  cursor: pointer;
+  transition: color 0.2s;
+  color: rgba(255, 255, 255, 0.377);
+}
+.footer .footerCarousel .arrowF:hover {
+  color: white;
+}
+.footer .footerCarousel #leftChev {
+  left: -30px;
+}
+.footer .footerCarousel #rightChev {
+  right: -30px;
+}
+.footer .footerCarousel .footerCarouselImg ul::-webkit-scrollbar {
+  width: 0 !important;
+}
+.footer .footerCarousel .footerCarouselImg ul {
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+  list-style-type: none;
+  display: flex;
+  overflow: scroll;
+  margin: 20px 0;
+  padding: 0;
+  padding-top: 15px;
+  border-radius: 5px;
+  background-color: rgba(43, 42, 42, 0.199);
+}
+.footer .footerCarousel .footerCarouselImg ul .liWrapper {
+  padding: 0 20px;
+}
+.footer .footerCarousel .footerCarouselImg ul li {
+  padding: 0;
+  width: 70px;
+  height: 40px;
+}
+.footer .footerCarousel .footerCarouselImg ul li img {
+  width: 100%;
+}
+
+@media (max-width: 470px) {
+  .footer .footerCarousel .footerCarouselImg ul .liWrapper {
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding: 0 2.5px;
+  }
+}
+.image {
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#image1 {
+  background-image: url("https://icemodz.de/wp-content/uploads/2020/01/card-icons/mastercard.svg");
+}
+
+#image2 {
+  background-image: url("https://icemodz.de/wp-content/uploads/2020/01/card-icons/visa.svg");
+}
+
+#image3 {
+  background-image: url("https://icemodz.de/wp-content/uploads/2020/01/card-icons/amex.svg");
+}
+
+#image4 {
+  background-image: url("../img/image4.svg");
+  background-size: 65%;
+}
+
+#image5 {
+  background-image: url("../img/image5.svg");
+  background-repeat: no-repeat;
+}
+
+#image6 {
+  background-image: url("../img/image7.svg");
+  background-size: 85%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#image7 {
+  background-image: url("../img/image8.svg");
+  background-size: 90%;
+}
+
+#image9 {
+  background-image: url("../img/image9.svg");
+  background-size: 90%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#image10 {
+  background-image: url("../img/image10.svg");
+  background-size: 105%;
+}
+
+#image11 {
+  background-image: url("../img/image11.svg");
+  background-color: white;
+  background-size: 90%;
+}
+
+#image12 {
+  background-image: url("../img/image12.svg");
+  background-size: 75%;
+}
+
+#image13 {
+  background-image: url("../img/image13.svg");
+  background-size: 60%;
+}
+
+#image14 {
+  background-image: url("../img/image14.svg");
+}
+
+#image15 {
+  background-image: url("../img/image15.svg");
+}
+
+#image16 {
+  background-image: url("../img/image16.svg");
+  background-size: 90%;
+}
+
+#image17 {
+  background-image: url("../img/image17.svg");
+}
+
+#image18 {
+  background-image: url("https://icemodz.de/wp-content/uploads/2020/01/card-icons/maestro.svg");
+}
+
+#image19 {
+  background-image: url(https://icemodz.de/wp-content/uploads/2020/01/card-icons/diners.svg);
+}
+
+#image20 {
+  background-image: url(https://icemodz.de/wp-content/uploads/2020/01/card-icons/jcb.svg);
+}
+
+#image21 {
+  background-image: url(https://icemodz.de/wp-content/uploads/2020/01/card-icons/discover.svg);
+}
+
+/*# sourceMappingURL=footer.css.map */
