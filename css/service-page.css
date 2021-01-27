@@ -1,0 +1,59 @@
+.page-content{
+  padding: 15px;
+  border-radius:10px;
+  margin:50px 25px;
+ margin-bottom: 400px;
+ background-color: rgba(143, 143, 143, 0.068);
+ text-align: left;
+ color: #afafaf;
+}
+
+.page-content .heading{
+    font-size: 20px;
+    font-weight:bold;
+}
+
+
+#cards .product-tile{
+  flex-direction: column;
+  max-width: unset;
+  min-width: unset;
+  max-width: 275px;
+}
+
+#cards .product-tile .content{
+  width: 100%;
+  padding-bottom: 10px;
+}
+.tester .description-boxes{
+  display: flex;
+  padding: 15px;
+}
+.tester .description{
+ background-color: rgba(184, 184, 184, 0.068);
+ margin:50px 5px;
+  text-align: left;
+  display: flex;
+  border-radius: 10px;
+  padding:20px;
+  font-size: 18px;
+}
+
+.tester .description .heading{
+  margin-bottom:5px;
+  font-weight: bold;
+}
+.tester .description .text-content{
+  color: #afafaf;
+}
+.tester .description .icon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 20px;
+}
+
+.tester .description .icon .fab{
+  font-size: 50px;
+}

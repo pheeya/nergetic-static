@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154746856-1"></script>
+	<script type="text/javascript" src="https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
+		async></script>
+	<!-- TrustBox script -->
+	<!-- End TrustBox script -->
+	<meta charset="utf-8" />
+	<link rel="dns-prefetch" href="https://www.google-analytics.com" />
+	<link rel="preconnect" href="https://www.google-analytics.com" />
+	<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+	<meta name="viewport" content="width=device-width" />
+	<meta name="theme-color" content="#000000" />
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css"
+		integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" media="all" />
+	<link rel="apple-touch-icon" href="./logo192.png" />
+	<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+	<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+	<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
+	<link rel="manifest" href="./site.webmanifest" />
+	<link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5" />
+	<meta name="msapplication-TileColor" content="#da532c" />
+	<meta name="theme-color" content="#ffffff" />
+	<meta property="og:title" content="NergeticModding - Support Center" />
+	<meta property="og:image" content="./img/logo.svg" />
+	<meta property="og:url" content="https://nergeticmodding.com/support" />
+	<script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@id": "https://nergeticmodding.com/#organization",
+            "@type": "Organization",
+            "name": "NergeticModding",
+            "url": "https://nergeticmodding.com/",
+            "logo": "https://nergeticmodding.com/static/media/logo.14a6d797.png",
+            "description":"NergeticModding offers GTA 5, Fortnite and Forza Horizon boosting services & money mods. Boost your game with us! ✅Fast delivery within 24 hours ✅100% Safe Method ✅24/7 Support",
+            "email": "info@nergeticmodding.com",
+            "contactPoint":
+                {
+                    "@type": "ContactPoint",
+                    "url": "https://nergeticmodding.com/",
+                    "contactType": "customer support"
+                }
+        }
+        </script>
+	<link rel="stylesheet" href="./css/main.css" />
+	<link rel="stylesheet" href="./css/fonts.css" />
+	<link rel="stylesheet" href="./css/nav.css" />
+	<link rel="stylesheet" href="./css/mNav.css" />
+	<link rel="stylesheet" href="./css/footer.css" />
+	<link rel="stylesheet" href="./css/cards.css" />
+	<link rel="stylesheet" href="./css/deliveries.css" />
+	<link rel="stylesheet" href="./css/support.css" />
+	<link rel="stylesheet" href="./css/popout.css" />
+	<link rel="stylesheet" href="./css/learn.css" />
+	<link rel="stylesheet" href="./css/service-page.css" />
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<title>NergeticModding - Support Center</title>
+</head>
+
+<body>
+	<noscript>We deliver Cheap & Reliable GTA 5 Money & Modded Accounts strictly within 12 hours! We are the most
+		exclusive GTA 5 Modding website. NergeticModding is the No.1 place for Cheap & Reliable Rare Fortnite Skins &
+		VBUCKS
+		with fast delivery.</noscript>
+	<div id="root">
+		<div class="App">
+			<div class="loader"></div>
+			<div class="navHolder">
+				<div class="mNav">
+					<div onclick="openMenu()" class="mNav-button">
+						<i class="fas fa-bars"></i>
+					</div>
+					<ul id="mNav">
+						<a class="active">
+							<li>GTA V STORE</li>
+						</a>
+						<a href="faq.html">
+							<li>FAQ</li>
+						</a>
+						<a target="_blank" rel="noreferrer"
+							href="https://pay.smartcheckout.store/status/?merchant=20014">
+							<li>ORDER STATUS</li>
+						</a>
+						<a href="delivery-packages.html">
+							<li>DELIVERY PACKAGES</li>
+						</a>
+						<a href="support.html" href="index.html">
+							<li>SUPPORT CENTER</li>
+						</a>
+					</ul>
+				</div>
+				<img class="logo" src="./img/logo.svg" alt="NergeticModding logo" title="NergeticModding Logo" />
+				<div class="nav">
+					<ul id="links-1">
+						<a href="index.html">
+							<li>GTA V STORE</li>
+						</a>
+						<a href="faq.html">
+							<li>FAQ</li>
+						</a>
+						<a target="_blank" rel="noreferrer"
+							href="https://pay.smartcheckout.store/status/?merchant=20014">
+							<li>ORDER STATUS</li>
+						</a>
+						<a href="delivery-packages.html">
+							<li>DELIVERY PACKAGES</li>
+						</a>
+						<a href="support.html" class="active">
+							<li>SUPPORT CENTER</li>
+						</a>
+						<div class="headControls">
+							<li id="currentCurrency"> EUR</li>
+							<ul>
+								<li class="active" onclick="eur()">
+									<img id="eu" src="./img/eu.svg" alt="eu" title="Euro" /> EUR
+
+								</li>
+								<li class="li" onclick="usd()">
+									<img src="./img/um.svg" alt="usd" title="United States Dollar" /> USD
+
+								</li>
+								<li class="li" onclick="gbp()">
+									<img src="./img/gb.svg" alt="gbp" title="Pound Sterling" /> GBP
+
+								</li>
+								<li class="li" onclick="aud()">
+									<img src="./img/au.svg" alt="aud" title="Australian Dollar" /> AUD
+
+								</li>
+								<li class="li" onclick="cad()">
+									<img src="./img/ca.svg" alt="cad" title="Canadian Dollar" /> CAD
+
+								</li>
+							</ul>
+						</div>
+					</ul>
+				</div>
+
+				<div class="tester">
+				<div class="description-boxes">
+					<div class="description">
+						<div class="icon"> <i class="fab fa-playstation platIco"></i></div>
+						<div class="content">
+							<div class="heading">GTA 5 ACCOUNT BOOST PS4</div>
+							<div class="text-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+								explicabo exercitationem omnis sint ipsam nihil non distinctio rerum!</div>
+						</div>
+					</div>
+					<div class="description">
+						<div class="icon"> <i class="fab fa-playstation platIco"></i></div>
+						<div class="content">
+							<div class="heading">GTA 5 ACCOUNT BOOST PS4</div>
+							<div class="text-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+								explicabo exercitationem omnis sint ipsam nihil non distinctio rerum!</div>
+						</div>
+					</div>
+					<div class="description">
+						<div class="icon"> <i class="fab fa-playstation platIco"></i></div>
+						<div class="content">
+							<div class="heading">GTA 5 ACCOUNT BOOST PS4</div>
+							<div class="text-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+								explicabo exercitationem omnis sint ipsam nihil non distinctio rerum!</div>
+						</div>
+					</div>
+				</div>
+					<div class="cardsContainer">
+						<div class="innerContainerCards">
+							<div id="cards">
+								<cardjs>
+									<div class="popController" id="./img/1- PS4.44021d3b.png">
+										<div class="popout">
+											<div class="popTop">
+												<div class="price"><i class="fab fa-playstation"></i> PS4 Money Boost
+													(Vehicles) <span></span> <br></div>
+											</div>
+											<form method="POST" action="https://pay.smartcheckout.store/apply/">
+												<input name="action" type="hidden" value="addToCart"><input
+													name="merchant" type="hidden" value="20014"><input name="form"
+													type="hidden" value="1">
+												<div>
+													<label for="PSNemail">PSN Email</label><input name="PSNemail"
+														placeholder="email@email.com" type="email" required="">
+													<div class="inlineInput pass"><label for="password">PSN
+															Password</label><input name="password" placeholder="*****"
+															type="password" required=""></div>
+													<div class="inlineInput"><label for="re-enter">Re-Enter
+															Password</label><input name="re-enter" placeholder="*****"
+															type="password" required=""></div>
+													<div>
+														<input name="type" type="hidden"
+															value="ps4-money-boost"><span>Select Money</span>
+														<select required="" name="id" id="currency-select-1">
+															<option value="1">15 Million Booster - 18.00 €</option>
+															<option value="2">25 Million Booster - 24.00 €</option>
+															<option value="3">30 Million Booster - 28.00 €</option>
+															<option value="4">50 Million Booster - 35.00 €</option>
+															<option value="5">75 Million Booster - 3542.00 €</option>
+															<option value="6">100 Million Booster - 55.00 €</option>
+															<option value="7">150 Million Booster - 65.00 €</option>
+															<option value="8">200 Million Booster - 78.00 €</option>
+															<option value="9">300 Million Booster - 100.00 €</option>
+															<option value="10">500 Million Booster - 142 €</option>
+															<option value="447">750 Million Booster - 165.00 €</option>
+															<option value="448">1 Billion Booster - 180.00 €</option>
+														</select>
+													</div>
+													<label>
+														<input class="checkbox" type="checkbox" name="2faDisabled"
+															required="">
+														<p class="verify">I confirm that my account meets the following
+															requirements: 2-Step Verification Off, 200k GTA Money, PS
+															Plus Subscription Enabled.<br><br>*This requirement is
+															crucial to meet. If they are not met the order is subject to
+															delays, so please make sure you meet them all.</p>
+													</label>
+												</div>
+												<button>Checkout</button>
+											</form>
+										</div>
+									</div>
+									<div class="learnController">
+										<div class="learnMore">
+											<div class="popTop">
+												<div class="price"><i class="fas fa-info-circle"></i> PS4 Money Boost
+													(Vehicles) <br></div>
+											</div>
+											<div class="body">PS4 Money Boost (Vehicles) is a service which increases
+												your GTA Online Money Balance.<br><br> This is achieved with the
+												vehicles method which means that you will receive a small portion of
+												money and your garages filled with vehicles that you can sell for the
+												full amount you purchased.
+												<br><br>Requirements: 200k, 2FA Off, Correct PSN Login, PS Plus
+												Subscription activated.
+											</div>
+										</div>
+									</div>
+									<div class="fullOverlay" onclick="popoutOff()"></div>
+									<div class="tile product-tile">
+										<div class="imgHolder"><img src="./img/1- PS4.png"
+												alt="PS4 Money Boost (Vehicles)" title="PS4 Money Boost (Vehicles)">
+										</div>
+										<div class="content cardListContainer">
+											<ul>
+												<li>GTA 5 PS4</li>
+												<li>MONEY &amp; VEHICLES</li>
+												<li>ADDED TO YOUR ACCOUNT</li>
+											</ul>
+											<button class="learnMoreContent grayButton" id="learnMore"
+												onclick="learnMore(0)">Learn More</button>
+											<hr class="buttonDivider">
+											<button class="buyButton blueButton" id="buyNow" onclick="popout(0)">Buy
+												Now</button>
+										</div>
+										<div class="onScreenContent"></div>
+									</div>
+								</cardjs>
+								<cardjs>
+									<div class="popController" id="./img/1- PS4.44021d3b.png">
+										<div class="popout">
+											<div class="popTop">
+												<div class="price"><i class="fab fa-playstation"></i> PS4 Money Boost
+													(Vehicles) <span></span> <br></div>
+											</div>
+											<form method="POST" action="https://pay.smartcheckout.store/apply/">
+												<input name="action" type="hidden" value="addToCart"><input
+													name="merchant" type="hidden" value="20014"><input name="form"
+													type="hidden" value="1">
+												<div>
+													<label for="PSNemail">PSN Email</label><input name="PSNemail"
+														placeholder="email@email.com" type="email" required="">
+													<div class="inlineInput pass"><label for="password">PSN
+															Password</label><input name="password" placeholder="*****"
+															type="password" required=""></div>
+													<div class="inlineInput"><label for="re-enter">Re-Enter
+															Password</label><input name="re-enter" placeholder="*****"
+															type="password" required=""></div>
+													<div>
+														<input name="type" type="hidden"
+															value="ps4-money-boost"><span>Select Money</span>
+														<select required="" name="id" id="currency-select-1">
+															<option value="1">15 Million Booster - 18.00 €</option>
+															<option value="2">25 Million Booster - 24.00 €</option>
+															<option value="3">30 Million Booster - 28.00 €</option>
+															<option value="4">50 Million Booster - 35.00 €</option>
+															<option value="5">75 Million Booster - 3542.00 €</option>
+															<option value="6">100 Million Booster - 55.00 €</option>
+															<option value="7">150 Million Booster - 65.00 €</option>
+															<option value="8">200 Million Booster - 78.00 €</option>
+															<option value="9">300 Million Booster - 100.00 €</option>
+															<option value="10">500 Million Booster - 142 €</option>
+															<option value="447">750 Million Booster - 165.00 €</option>
+															<option value="448">1 Billion Booster - 180.00 €</option>
+														</select>
+													</div>
+													<label>
+														<input class="checkbox" type="checkbox" name="2faDisabled"
+															required="">
+														<p class="verify">I confirm that my account meets the following
+															requirements: 2-Step Verification Off, 200k GTA Money, PS
+															Plus Subscription Enabled.<br><br>*This requirement is
+															crucial to meet. If they are not met the order is subject to
+															delays, so please make sure you meet them all.</p>
+													</label>
+												</div>
+												<button>Checkout</button>
+											</form>
+										</div>
+									</div>
+									<div class="learnController">
+										<div class="learnMore">
+											<div class="popTop">
+												<div class="price"><i class="fas fa-info-circle"></i> PS4 Money Boost
+													(Vehicles) <br></div>
+											</div>
+											<div class="body">PS4 Money Boost (Vehicles) is a service which increases
+												your GTA Online Money Balance.<br><br> This is achieved with the
+												vehicles method which means that you will receive a small portion of
+												money and your garages filled with vehicles that you can sell for the
+												full amount you purchased.
+												<br><br>Requirements: 200k, 2FA Off, Correct PSN Login, PS Plus
+												Subscription activated.
+											</div>
+										</div>
+									</div>
+									<div class="fullOverlay" onclick="popoutOff()"></div>
+									<div class="tile product-tile">
+										<div class="imgHolder"><img src="./img/1- PS4.png"
+												alt="PS4 Money Boost (Vehicles)" title="PS4 Money Boost (Vehicles)">
+										</div>
+										<div class="content cardListContainer">
+											<ul>
+												<li>GTA 5 PS4</li>
+												<li>MONEY &amp; VEHICLES</li>
+												<li>ADDED TO YOUR ACCOUNT</li>
+											</ul>
+											<button class="learnMoreContent grayButton" id="learnMore"
+												onclick="learnMore(1)">Learn More</button>
+											<hr class="buttonDivider">
+											<button class="buyButton blueButton" id="buyNow" onclick="popout(1)">Buy
+												Now</button>
+										</div>
+										<div class="onScreenContent"></div>
+									</div>
+								</cardjs>
+								<cardjs>
+									<div class="popController" id="./img/1- PS4.44021d3b.png">
+										<div class="popout">
+											<div class="popTop">
+												<div class="price"><i class="fab fa-playstation"></i> PS4 Money Boost
+													(Vehicles) <span></span> <br></div>
+											</div>
+											<form method="POST" action="https://pay.smartcheckout.store/apply/">
+												<input name="action" type="hidden" value="addToCart"><input
+													name="merchant" type="hidden" value="20014"><input name="form"
+													type="hidden" value="1">
+												<div>
+													<label for="PSNemail">PSN Email</label><input name="PSNemail"
+														placeholder="email@email.com" type="email" required="">
+													<div class="inlineInput pass"><label for="password">PSN
+															Password</label><input name="password" placeholder="*****"
+															type="password" required=""></div>
+													<div class="inlineInput"><label for="re-enter">Re-Enter
+															Password</label><input name="re-enter" placeholder="*****"
+															type="password" required=""></div>
+													<div>
+														<input name="type" type="hidden"
+															value="ps4-money-boost"><span>Select Money</span>
+														<select required="" name="id" id="currency-select-1">
+															<option value="1">15 Million Booster - 18.00 €</option>
+															<option value="2">25 Million Booster - 24.00 €</option>
+															<option value="3">30 Million Booster - 28.00 €</option>
+															<option value="4">50 Million Booster - 35.00 €</option>
+															<option value="5">75 Million Booster - 3542.00 €</option>
+															<option value="6">100 Million Booster - 55.00 €</option>
+															<option value="7">150 Million Booster - 65.00 €</option>
+															<option value="8">200 Million Booster - 78.00 €</option>
+															<option value="9">300 Million Booster - 100.00 €</option>
+															<option value="10">500 Million Booster - 142 €</option>
+															<option value="447">750 Million Booster - 165.00 €</option>
+															<option value="448">1 Billion Booster - 180.00 €</option>
+														</select>
+													</div>
+													<label>
+														<input class="checkbox" type="checkbox" name="2faDisabled"
+															required="">
+														<p class="verify">I confirm that my account meets the following
+															requirements: 2-Step Verification Off, 200k GTA Money, PS
+															Plus Subscription Enabled.<br><br>*This requirement is
+															crucial to meet. If they are not met the order is subject to
+															delays, so please make sure you meet them all.</p>
+													</label>
+												</div>
+												<button>Checkout</button>
+											</form>
+										</div>
+									</div>
+									<div class="learnController">
+										<div class="learnMore">
+											<div class="popTop">
+												<div class="price"><i class="fas fa-info-circle"></i> PS4 Money Boost
+													(Vehicles) <br></div>
+											</div>
+											<div class="body">PS4 Money Boost (Vehicles) is a service which increases
+												your GTA Online Money Balance.<br><br> This is achieved with the
+												vehicles method which means that you will receive a small portion of
+												money and your garages filled with vehicles that you can sell for the
+												full amount you purchased.
+												<br><br>Requirements: 200k, 2FA Off, Correct PSN Login, PS Plus
+												Subscription activated.
+											</div>
+										</div>
+									</div>
+									<div class="fullOverlay" onclick="popoutOff()"></div>
+									<div class="tile product-tile">
+										<div class="imgHolder"><img src="./img/1- PS4.png"
+												alt="PS4 Money Boost (Vehicles)" title="PS4 Money Boost (Vehicles)">
+										</div>
+										<div class="content cardListContainer">
+											<ul>
+												<li>GTA 5 PS4</li>
+												<li>MONEY &amp; VEHICLES</li>
+												<li>ADDED TO YOUR ACCOUNT</li>
+											</ul>
+											<button class="learnMoreContent grayButton" id="learnMore"
+												onclick="learnMore(2)">Learn More</button>
+											<hr class="buttonDivider">
+											<button class="buyButton blueButton" id="buyNow" onclick="popout(2)">Buy
+												Now</button>
+										</div>
+										<div class="onScreenContent"></div>
+									</div>
+								</cardjs>
+								<cardjs>
+									<div class="popController" id="./img/1- PS4.44021d3b.png">
+										<div class="popout">
+											<div class="popTop">
+												<div class="price"><i class="fab fa-playstation"></i> PS4 Money Boost
+													(Vehicles) <span></span> <br></div>
+											</div>
+											<form method="POST" action="https://pay.smartcheckout.store/apply/">
+												<input name="action" type="hidden" value="addToCart"><input
+													name="merchant" type="hidden" value="20014"><input name="form"
+													type="hidden" value="1">
+												<div>
+													<label for="PSNemail">PSN Email</label><input name="PSNemail"
+														placeholder="email@email.com" type="email" required="">
+													<div class="inlineInput pass"><label for="password">PSN
+															Password</label><input name="password" placeholder="*****"
+															type="password" required=""></div>
+													<div class="inlineInput"><label for="re-enter">Re-Enter
+															Password</label><input name="re-enter" placeholder="*****"
+															type="password" required=""></div>
+													<div>
+														<input name="type" type="hidden"
+															value="ps4-money-boost"><span>Select Money</span>
+														<select required="" name="id" id="currency-select-1">
+															<option value="1">15 Million Booster - 18.00 €</option>
+															<option value="2">25 Million Booster - 24.00 €</option>
+															<option value="3">30 Million Booster - 28.00 €</option>
+															<option value="4">50 Million Booster - 35.00 €</option>
+															<option value="5">75 Million Booster - 3542.00 €</option>
+															<option value="6">100 Million Booster - 55.00 €</option>
+															<option value="7">150 Million Booster - 65.00 €</option>
+															<option value="8">200 Million Booster - 78.00 €</option>
+															<option value="9">300 Million Booster - 100.00 €</option>
+															<option value="10">500 Million Booster - 142 €</option>
+															<option value="447">750 Million Booster - 165.00 €</option>
+															<option value="448">1 Billion Booster - 180.00 €</option>
+														</select>
+													</div>
+													<label>
+														<input class="checkbox" type="checkbox" name="2faDisabled"
+															required="">
+														<p class="verify">I confirm that my account meets the following
+															requirements: 2-Step Verification Off, 200k GTA Money, PS
+															Plus Subscription Enabled.<br><br>*This requirement is
+															crucial to meet. If they are not met the order is subject to
+															delays, so please make sure you meet them all.</p>
+													</label>
+												</div>
+												<button>Checkout</button>
+											</form>
+										</div>
+									</div>
+									<div class="learnController">
+										<div class="learnMore">
+											<div class="popTop">
+												<div class="price"><i class="fas fa-info-circle"></i> PS4 Money Boost
+													(Vehicles) <br></div>
+											</div>
+											<div class="body">PS4 Money Boost (Vehicles) is a service which increases
+												your GTA Online Money Balance.<br><br> This is achieved with the
+												vehicles method which means that you will receive a small portion of
+												money and your garages filled with vehicles that you can sell for the
+												full amount you purchased.
+												<br><br>Requirements: 200k, 2FA Off, Correct PSN Login, PS Plus
+												Subscription activated.
+											</div>
+										</div>
+									</div>
+									<div class="fullOverlay" onclick="popoutOff()"></div>
+									<div class="tile product-tile">
+										<div class="imgHolder"><img src="./img/1- PS4.png"
+												alt="PS4 Money Boost (Vehicles)" title="PS4 Money Boost (Vehicles)">
+										</div>
+										<div class="content cardListContainer">
+											<ul>
+												<li>GTA 5 PS4</li>
+												<li>MONEY &amp; VEHICLES</li>
+												<li>ADDED TO YOUR ACCOUNT</li>
+											</ul>
+											<button class="learnMoreContent grayButton" id="learnMore"
+												onclick="learnMore(2)">Learn More</button>
+											<hr class="buttonDivider">
+											<button class="buyButton blueButton" id="buyNow" onclick="popout(3)">Buy
+												Now</button>
+										</div>
+										<div class="onScreenContent"></div>
+									</div>
+								</cardjs>
+							</div>
+						</div>
+
+					</div>
+					<div class="page-content">
+						<div class="heading">Your much-needed GTA V Account Boost for PS4</div>
+						<p>There are two types of players: grinders and go-getters.</p>
+						<p>If you don’t mind going all out to earn some money in GTA, that’s okay.
+							But if you gravitate towards making the most of your time in Los Santos, you need to take a
+							different way. And we can guide you through it.</p>
+						<p>For those who are more of go-getters, CriminalModz offers GTA 5 account boosts for PS4.</p>
+						<p>It’s your opportunity to get out of the in-game rat race and start playing the way you want.
+							We carry out GTA 5 PS4 unlock-all and money boosts for existing accounts with activated PS
+							Plus subscriptions. And we vouch for our service, backing it with an anti-ban warranty.</p>
+						<p>That means you’ll be provided with another complimentary account if your one is banned during
+							the boosting process.
+							But don’t fret!</p>
+						<p>The team of CriminalModz is made up of the best modders who know how to exploit game
+							loopholes to your advantage safely.</p>
+						<br><br>
+						<div class="heading">Choose from Money and RP Account Boosters for GTA 5 on PS4</div>
+						<p>Are you all set to experience the thrill of the game?</p>
+						<p>There’s hardly any chance you can do that without a heap of bucks.
+							It won’t hurt to crank up your cash balance first so that you can buy any car, weapon, or
+							outfit.
+						</p>
+						<p>With our GTA 5 money boost for PS4, you can get millions that are waiting to be spent as
+							extravagantly as possible.
+							Have you always wanted to drive the Ocelot Pariah or fly some stealthy chopper?
+							Now you can afford everything.
+							However, even well-to-do players can’t buy all stuff if their ranks are at the very bottom.
+							To level up in a jiffy, make use of our RP or GTA V unlock-all PS4 boosts.</p>
+						<p>Leave grinding to our modders so that they bring you to the highest rank.</p>
+						<p>With this service, you won’t even need to accomplish downright hard missions to get access to
+							the coolest things in the game. Miniguns, car upgrades, unique customization options,
+							clothing – you name it!</p>
+					</div>
+					<div class="footer">
+						<div class="footerText">
+							<h4>
+								<a href="/support#legal-notice" style="color: #fff ">LEGAL NOTICE </a>|
+
+								<a href="/support#tos" style="color: #fff"> TERMS OF SERVICE</a>
+							</h4>
+							©2020 NergeticModding. All trademarks are property of their respective owners.
+
+
+						</div>
+						<div class="footer-trust-pilot">
+							<div id="trustbox" class="trustpilot-widget" data-locale="en-US"
+								data-template-id="5613c9cde69ddc09340c6beb"
+								data-businessunit-id="5ddfd552f0a02300011f3529" data-style-height="100%"
+								data-style-width="100%" data-theme="dark">
+								<div>
+									<a href="https://www.trustpilot.com/review/nergeticmodding.com" target="_blank"
+										rel="noopener">Trustpilot</a>
+								</div>
+							</div>
+						</div>
+						<div class="footerCarousel">
+							<div class="footerCarouselImg">
+								<ul id="footerScroller">
+									<div class="liWrapper">
+										<li id="image1" class="image"></li>
+									</div>
+									<div class="liWrapper">
+										<li id="image2" class="image"></li>
+									</div>
+									<div class="liWrapper">
+										<li id="image3" class="image"></li>
+									</div>
+									<div class="liWrapper">
+										<li id="image18" class="image"></li>
+									</div>
+									<div class="liWrapper">
+										<li id="image4" class="image"></li>
+									</div>
+									<div class="liWrapper">
+										<li id="image5" class="image"></li>
+									</div>
+									<div class="liWrapper">
+										<li id="image6" class="image"></li>
+									</div>
+									<div class="liWrapper">
+										<li id="image7" class="image"></li>
+									</div>
+									<div class="liWrapper">
+										<li id="image10" class="image"></li>
+									</div>
+									<div class="liWrapper">
+										<li id="image15" class="image"></li>
+									</div>
+									<div class="liWrapper">
+										<li id="image16" class="image"></li>
+									</div>
+									<div class="liWrapper">
+										<li id="image17" class="image"></li>
+									</div>
+								</ul>
+							</div>
+							<i onclick="scrollF()" id="rightChev" class="fas fa-arrow-right arrowF"></i>
+							<i onclick="scrollB()" id="leftChev" class="fas fa-arrow-left arrowF"></i>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="./js/main.js"></script>
+</body>
+
+</html>
