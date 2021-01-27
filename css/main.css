@@ -53,7 +53,7 @@ body {
 .loader {
     /* background-color: rgba(31, 32, 61, 0.295);
      */
-    background-color: rgba(0, 0, 0, 0.829);
+    background-color: rgba(0, 0, 0, 0);
     position: fixed;
     height: 100%;
     width: 100%;
