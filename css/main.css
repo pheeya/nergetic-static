@@ -31,7 +31,7 @@ body {
     position: relative;
     background-size: 100%;
     background-attachment: fixed;
-    background-image: url("../img/backgroundSniperFiltered.png");
+    background-image: url("../img/lightbackground.png");
     background-color:black;
 }
 
@@ -51,7 +51,9 @@ body {
 }
 
 .loader {
-    background-color: rgba(31, 32, 61, 0.295);
+    /* background-color: rgba(31, 32, 61, 0.295);
+     */
+    background-color: rgba(10, 10, 15, 0.774);
     position: fixed;
     height: 100%;
     width: 100%;
