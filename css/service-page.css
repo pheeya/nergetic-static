@@ -1,52 +1,87 @@
-.page-content{
+.page-content {
   padding: 15px;
-  border-radius:10px;
-  margin:50px 25px;
- margin-bottom: 400px;
- background-color: rgba(143, 143, 143, 0.068);
- text-align: left;
- color: #afafaf;
+  border-radius: 10px;
+  margin: 50px 25px;
+  margin-bottom: 400px;
+  background-color: rgba(143, 143, 143, 0.068);
+  text-align: left;
+  color: #afafaf;
 }
 
-.page-content .heading{
-    font-size: 20px;
-    font-weight:bold;
+.page-content .heading {
+  font-size: 20px;
+  font-weight: bold;
 }
 
-
-#cards .product-tile{
+#cards .product-tile {
   flex-direction: column;
   max-width: unset;
   min-width: unset;
   max-width: 275px;
 }
 
-#cards .product-tile .content{
+#cards .product-tile .content {
   width: 100%;
   padding-bottom: 10px;
 }
-.tester .description-boxes{
-  display: flex;
-  padding: 15px;
+.tester{
+  position: relative;
 }
-.tester .description{
- background-color: rgba(184, 184, 184, 0.068);
- margin:50px 5px;
-  text-align: left;
+.tester #back-home {
+  position: absolute;
+  left: 0;
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+}
+.tester .service-title {
+  padding: 10px 0;
+}
+.tester .service-title h1 {
+  display: inline-block;
+  margin: auto;
+  padding: 20px;
+  font-size: 24px;
+  border-bottom: 1px solid rgba(88, 88, 88, 0.322);
+}
+.tester .notiMessage {
+  background: none;
+}
+.tester .description-boxes {
   display: flex;
-  border-radius: 10px;
-  padding:20px;
-  font-size: 18px;
+  padding: 10px 15px;
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 50px;
 }
 
-.tester .description .heading{
-  margin-bottom:5px;
-  font-weight: bold;
+.tester .description {
+  background-color: rgba(184, 184, 184, 0.068);
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 16px;
+  max-width: 320px;
 }
-.tester .description .text-content{
+@media screen and (max-width:870px){
+  .tester .description-boxes{
+    display: block;
+  }
+  .tester .description {
+    margin:10px auto;
+  }
+}
+.tester .description .heading {
+  margin-bottom: 5px;
+  font-weight: bold;
+  margin: 5px 0;
+  margin-top: 15px;
+}
+.tester .description .text-content {
   color: #afafaf;
 }
-.tester .description .icon{
+.tester .description .icon {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -54,6 +89,6 @@
   margin-right: 20px;
 }
 
-.tester .description .icon .fab{
+.tester .description .icon .fab {
   font-size: 50px;
 }
