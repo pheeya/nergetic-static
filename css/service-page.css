@@ -12,12 +12,20 @@
   font-size: 20px;
   font-weight: bold;
 }
-
+#cards{
+  flex-wrap: nowrap;
+  padding: 0 15px;
+}
 #cards .product-tile {
   flex-direction: column;
-  max-width: unset;
   min-width: unset;
-  max-width: 275px;
+  max-width:500px;
+  width: 100%;
+  margin: 0;
+}
+#cards cardjs{
+  width: 100%;
+  margin: 10px;
 }
 
 #cards .product-tile .content {
@@ -29,7 +37,8 @@
 }
 .tester #back-home {
   position: absolute;
-  left: 0;
+  left: 20px;
+  top: 20px;
   color: white;
   text-decoration: none;
   font-size: 22px;
@@ -41,7 +50,7 @@
   display: inline-block;
   margin: auto;
   padding: 20px;
-  font-size: 24px;
+  font-size: 32px;
   border-bottom: 1px solid rgba(88, 88, 88, 0.322);
 }
 .tester .notiMessage {
@@ -65,6 +74,13 @@
   max-width: 320px;
 }
 @media screen and (max-width:870px){
+  #cards{
+    flex-wrap:wrap;
+  }
+  #cards cardjs{
+    max-width: 350px;
+  }
+  
   .tester .description-boxes{
     display: block;
   }
