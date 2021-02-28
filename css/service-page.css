@@ -3,14 +3,31 @@
   border-radius: 10px;
   margin: 50px 25px;
   margin-bottom: 400px;
-  background-color: rgba(143, 143, 143, 0.068);
   text-align: left;
   color: #afafaf;
 }
-
+#cards .tile .content .buyButton{
+  max-width: 270px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #0C2B80;
+  text-transform: uppercase;
+padding: 15px;
+}
+#cards .tile .content .buyButton:hover{
+  transform: scale(.9);
+}
 .page-content .heading {
   font-size: 20px;
   font-weight: bold;
+  color: rgba(255, 255, 255, 0.8);
+  border-bottom: 1px solid rgba(88, 88, 88, 0.322);
+  padding-bottom: 20px;
+  display: inline-block;
+}
+.page-content p{
+  color: rgba(255, 255, 255, 0.48);
+  font-size: 16px;
 }
 #cards{
   flex-wrap: nowrap;
@@ -19,9 +36,17 @@
 #cards .product-tile {
   flex-direction: column;
   min-width: unset;
-  max-width:500px;
+  max-width:363px;
   width: 100%;
   margin: 0;
+}
+#cards .tile .content{
+  background-color:#090909;
+}
+
+#cards .tile .content ul li{
+  border-color: rgba(135, 135, 135, 0.06);
+
 }
 #cards cardjs{
   width: 100%;
@@ -31,6 +56,10 @@
 #cards .product-tile .content {
   width: 100%;
   padding-bottom: 10px;
+  color: rgba(255, 255, 255, 0.7803921568627451);
+}
+#cards .product-tile .content ul li{
+  font-size: 15px;
 }
 .tester{
   position: relative;
@@ -50,7 +79,7 @@
   display: inline-block;
   margin: auto;
   padding: 20px;
-  font-size: 32px;
+  font-size: 33px;
   border-bottom: 1px solid rgba(88, 88, 88, 0.322);
 }
 .tester .notiMessage {
@@ -65,14 +94,16 @@
 }
 
 .tester .description {
-  background-color: rgba(184, 184, 184, 0.068);
+  background-color: #090909;
   margin: 10px;
   text-align: center;
   border-radius: 10px;
   padding: 20px;
-  font-size: 16px;
+  font-size: 15px;
   max-width: 320px;
 }
+
+
 @media screen and (max-width:870px){
   #cards{
     flex-wrap:wrap;
@@ -93,6 +124,9 @@
   font-weight: bold;
   margin: 5px 0;
   margin-top: 15px;
+  font-size: 20px;
+  margin: 25px auto;
+  color: rgba(255, 255, 255, 0.94);
 }
 .tester .description .text-content {
   color: #afafaf;
