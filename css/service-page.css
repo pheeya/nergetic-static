@@ -40,6 +40,16 @@ padding: 15px;
   width: 100%;
   margin: 0;
 }
+
+
+ /* remove this block when adding back images */
+#cards .tile .imgHolder img{
+opacity: 0;
+}
+ /* also remove this block when adding back images */
+#cards .tile .imgHolder{
+background: rgb(68, 68, 68);
+}
 #cards .tile .content{
   background-color:#090909;
 }
@@ -102,7 +112,7 @@ padding: 15px;
   padding: 20px;
   font-size: 15px;
   max-width: 320px;
-  min-width: 300px;
+  min-width: 330px;
 }
 
 
@@ -123,15 +133,17 @@ padding: 15px;
 }
 .tester .description .heading {
   margin-bottom: 5px;
-  font-weight: bold;
+  font-weight: 500;
   margin: 5px 0;
   margin-top: 15px;
   font-size: 20px;
   margin: 25px auto;
-  color: rgba(255, 255, 255, 0.94);
+  color:rgba(255, 255, 255, 0.94);
+
 }
+
 .tester .description .text-content {
-  color: #afafaf;
+ color: rgba(255, 255, 255, 0.7803921568627451);
 }
 .tester .description .icon {
   display: flex;
@@ -139,6 +151,7 @@ padding: 15px;
   justify-content: center;
   padding-left: 0;
   margin-right: 20px;
+  color: rgba(255, 255, 255, 0.94);
 }
 
 .tester .description .icon .fab {

@@ -3,7 +3,7 @@
   text-align: center;
 }
 .navHolder .nav {
-  background-color: rgba(0, 0, 0, 0.616);
+  /* background-color: rgba(0, 0, 0, 0.616); */
   max-width: 1270px;
   width: 95vw;
   margin: 50px auto;
