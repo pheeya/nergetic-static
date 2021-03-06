@@ -87,6 +87,7 @@ padding: 15px;
 }
 .tester .description-boxes {
   display: flex;
+  justify-content: center;
   padding: 10px 15px;
   max-width: 1000px;
   margin: auto;
@@ -101,6 +102,7 @@ padding: 15px;
   padding: 20px;
   font-size: 15px;
   max-width: 320px;
+  min-width: 300px;
 }
 
 

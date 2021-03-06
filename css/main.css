@@ -31,7 +31,7 @@ body {
     position: relative;
     background-size: 100%;
     background-attachment: fixed;
-    background-image: url("../img/darkbg");
+    background-image: url("../img/background-current.png");
     background-color:black;
 }
 
@@ -51,9 +51,8 @@ body {
 }
 
 .loader {
-    /* background-color: rgba(31, 32, 61, 0.295);
-     */
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #020202bd ;
+    
     position: fixed;
     height: 100%;
     width: 100%;
